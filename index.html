@@ -32,6 +32,8 @@
                     colors: {
                         clifford: '#da373d',
                         'color-primary': '#ABEF5F',
+                        'color-secondary': '#acef5f75',
+                        'background': '#f6f6f6',
                     }
                 }
             }
@@ -45,11 +47,11 @@
 <body>
     <main>
         <!-- %Header Section -->
-        <header>
+        <header class="mx-4">
             <!-- %NavBar -->
             <nav></nav>
 
-            </nav>
+
             <!-- %Header Content -->
             <div class="flex justify-center flex-col items-center gap-8">
                 <!-- %Header Image -->
@@ -64,9 +66,9 @@
                     sophistication, featuring weathered wood, sleek
                     metal
                     accents, and large windows that flood the space with natural light.</p>
-                    <!-- %Button -->
+                <!-- %Button -->
                 <button
-                    class="flex justify-center items-center gap-2 px-4 py-2 border-[#ABEF5F] border-2 rounded-full bg-[#acef5f75]">
+                    class="flex justify-center items-center gap-2 px-4 py-2 border-[#ABEF5F] border-2 rounded-full bg-color-secondary">
                     <h1 class="font-bold text-xl">
                         View Details
                     </h1>
@@ -78,10 +80,72 @@
             </div>
         </header>
         <!-- %About Us Section -->
-        <section id="about-us">
+        <section id="about-us" class="bg-background">
+            <!-- %Section Image-->
+            <div class="">
+                <img src="./assets/Vector.png" alt="">
+            </div>
+            <div class="mx-4 flex justify-center items-center gap-4 ">
+                <!-- %Left Passage -->
+                <div class="flex flex-col gap-4">
+                    <div class="bg-white w-24 rounded-full">
+                        <i class="uil uil-arrow-right"></i>
+                        About Us
+                    </div>
+                    <h1>We design thoughtful,
+                        liveable spaces</h1>
+                    <p>
+                        The barn house captivates with its blend of rustic charm and
 
-
-
+                        modern sophistication, featuring weathered wood, sleek metal accents.
+                    </p>
+                    <div>
+                        <div class="flex items-center gap-4 bg-white rounded-xl p-2 mb-4">
+                            <img src="./assets/commercial.png" alt="">
+                            <div>
+                                <h1>Commercial</h1>
+                                <p>The barn house captivates with its blend
+                                    of rustic charm and modern.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4  bg-white rounded-xl p-2">
+                            <img src="./assets/residential.png" alt="">
+                            <div>
+                                <h1>Residential</h1>
+                                <p>The barn house captivates with its blend
+                                    of rustic charm and modern.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- %Right Image -->
+                <div>
+                    <img src="./assets/Rectangle.png" alt="">
+                </div>
+            </div>
+            <!-- %Counter -->
+            <div class="mx-4 my-12 py-4 rounded-xl bg-white grid grid-cols-4 justify-items-center text-center">
+                <div>
+                    <i class="uil uil-feedback"></i>
+                    <h1>235+</h1>
+                    <p>Happy Client Review</p>
+                </div>
+                <div>
+                    <i class="uil uil-estate"></i>
+                    <h1>50+</h1>
+                    <p>Work Departments</p>
+                </div>
+                <div>
+                    <i class="uil uil-smile"></i>
+                    <h1>30k+</h1>
+                    <p>Our Happy Clients</p>
+                </div>
+                <div>
+                    <i class="uil uil-users-alt"></i>
+                    <h1>307+</h1>
+                    <p>Staff Members</p>
+                </div>
+            </div>
 
 
 
