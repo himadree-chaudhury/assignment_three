@@ -4,24 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- %Custom font -->
+    <!-- *Custom font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
-    <!-- %Icon-->
+    <!-- *Icon-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 
-    <!-- %Custom CSS -->
+    <!-- *Custom CSS -->
     <link rel="stylesheet" href="style.css">
 
 
-    <!-- %DaisyUI CDN -->
+    <!-- *DaisyUI CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon">
 
-    <!-- %Tailwind CDN -->
+    <!-- *Tailwind CDN -->
 
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -46,9 +46,9 @@
 
 <body>
     <main class="max-w-screen-2xl mx-auto">
-        <!-- %Header Section -->
+        <!-- *Header Section -->
         <header class="">
-            <!-- %NavBar -->
+            <!-- *NavBar -->
             <nav>
 
 
@@ -56,43 +56,43 @@
             </nav>
 
 
-            <!-- %Header Content -->
-            <div class="flex justify-center flex-col items-center text-center gap-8">
-                <!-- %Header Image -->
+            <!-- *Header Content -->
+            <div class="flex justify-center flex-col items-center text-center gap-8 mx-4">
+                <!-- *Header Image -->
                 <img src="./assets/banner.png" alt="">
-                <!-- %Heading -->
-                <h1 class="text-4xl font-bold sm:text-5xl lg:text-6xl">
+                <!-- *Heading -->
+                <h1 class="text-4xl font-extrabold sm:text-5xl lg:text-6xl">
                     A barn house of this design has a
                     striking appearance
                 </h1>
-                <!-- %Heading Paragraph -->
+                <!-- *Heading Paragraph -->
                 <p class="m-4 text-base text-gray-600">The barn house captivates with its blend of rustic charm and modern
                     sophistication, featuring weathered wood, sleek
                     metal
                     accents, and large windows that flood the space with natural light.</p>
-                <!-- %Button -->
+                <!-- *Button -->
                 <button
                     class="flex justify-center items-center gap-2 px-4 py-2 border-[#ABEF5F] border-2 rounded-full bg-color-secondary">
                     <h1 class="font-bold text-xl">
                         View Details
                     </h1>
-                    <!-- %Arrow-icon -->
+                    <!-- *Arrow-icon -->
                     <div class=" text-2xl h-8 w-8  text-black bg-color-primary rounded-full">
                         <i class="uil uil-arrow-up-right"></i>
                     </div>
                 </button>
             </div>
         </header>
-        <!-- %About Us Section -->
+        <!-- *About Us Section -->
         <section id="about-us" class="bg-background mt-8 pt-8 pb-16">
-            <!-- %Section Image-->
-            <div class="absolute overflow-hidden">
+            <!-- *Section Image-->
+            <div class="overflow-hidden">
                 <img src="./assets/Vector.png" alt="">
             </div>
-            <div class="mx-4 flex justify-evenly items-center gap-4 ">
-                <!-- %Left Passage -->
+            <div class="mx-4 flex flex-col md:flex-row  justify-evenly items-center gap-4 ">
+                <!-- *Left Passage -->
                 <div class="flex flex-col gap-4">
-                    <div class="bg-white w-28 rounded-full text-center text-base font-medium">
+                    <div class="bg-white w-28 rounded-full text-center text-base font-semibold">
                         <i class="uil uil-arrow-right"></i>
                         About Us
                     </div>
@@ -107,66 +107,66 @@
                         <div class="flex items-center gap-4 bg-white rounded-xl p-2 mb-4">
                             <img src="./assets/commercial.png" alt="">
                             <div>
-                                <h1>Commercial</h1>
-                                <p>The barn house captivates with its blend
+                                <h1 class="font-bold text-lg">Commercial</h1>
+                                <p class="font-light">The barn house captivates with its blend
                                     of rustic charm and modern.</p>
                             </div>
                         </div>
                         <div class="flex items-center gap-4  bg-white rounded-xl p-2">
                             <img src="./assets/residential.png" alt="">
                             <div>
-                                <h1>Residential</h1>
-                                <p>The barn house captivates with its blend
+                                <h1 class="font-bold text-lg">Residential</h1>
+                                <p class="font-light">The barn house captivates with its blend
                                     of rustic charm and modern.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- %Right Image -->
+                <!-- *Right Image -->
                 <div>
                     <img src="./assets/Rectangle.png" alt="">
                 </div>
             </div>
-            <!-- %Counter Grid-->
-            <div class="mx-4 my-12 py-4 rounded-xl bg-white grid grid-cols-4 justify-items-center text-center">
-                <div>
-                    <i class="uil uil-feedback"></i>
-                    <h1>235+</h1>
+            <!-- *Counter Grid-->
+            <div class="mx-4 my-12 py-4 rounded-xl bg-white grid grid-cols-2 gap-6 lg:grid-cols-4 justify-items-center text-center">
+                <div class="space-y-2">
+                    <i class="uil uil-feedback text-4xl font-bold "></i>
+                    <h1 class="text-5xl font-extrabold">235+</h1>
                     <p>Happy Client Review</p>
                 </div>
-                <div>
-                    <i class="uil uil-estate"></i>
-                    <h1>50+</h1>
+                <div class="space-y-2">
+                    <i class="uil uil-estate text-4xl font-bold"></i>
+                    <h1 class="text-5xl font-extrabold">50+</h1>
                     <p>Work Departments</p>
                 </div>
-                <div>
-                    <i class="uil uil-smile"></i>
-                    <h1>30k+</h1>
+                <div class="space-y-2">
+                    <i class="uil uil-smile text-4xl font-bold"></i>
+                    <h1 class="text-5xl font-extrabold">30k+</h1>
                     <p>Our Happy Clients</p>
                 </div>
-                <div>
-                    <i class="uil uil-users-alt"></i>
-                    <h1>307+</h1>
+                <div class="space-y-2">
+                    <i class="uil uil-users-alt text-4xl font-bold"></i>
+                    <h1 class="text-5xl font-extrabold">307+</h1>
                     <p>Staff Members</p>
                 </div>
             </div>
 
 
         </section>
-        <!-- %Work Process Section -->
+        <!-- *Work Process Section -->
         <section id="work-process" class="bg-background pb-20">
-            <div class="bg-white w-36 text-center rounded-full mx-auto">
+            <div class="bg-white w-36 text-center rounded-full text-base font-semibold mx-auto">
                 <i class="uil uil-arrow-right"></i>
                 How We Works
             </div>
-            <div class="mx-4 my-4 flex flex-col gap-4 items-center text-center">
+            <div class="mx-4 my-4 flex flex-col gap-4 items-center">
                 <h1 class="text-3xl font-bold sm:text-4xl lg:text-5xl">Our Works Process</h1>
-                <p class="m-4 text-base text-gray-600">
+                <p class="m-4 text-base text-gray-600  text-center">
                     The barn house captivates with its blend of rustic charm and modern sophistication,
                     featuring weathered wood, sleek metal accents.
                 </p>
-                <!-- %Process Grid -->
-                <div class="grid grid-cols-4 gap-4 ">
+                <!-- *Process Grid -->
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 ">
                     <div class="bg-[#e7c1d3] grid gap-2 p-4 rounded-xl">
                         <img src="./assets/concept.png" alt="">
                         <h1>Concept</h1>
@@ -207,9 +207,9 @@
 
 
 
-        <!-- %Portfolio Section -->
+        <!-- *Portfolio Section -->
         <section id="portfolio" class="mx-4">
-            <div class="bg-color-secondary w-60 text-center rounded-full mx-auto mt-32">
+            <div class="bg-color-secondary w-60 text-base font-semibold text-center rounded-full mx-auto mt-32">
                 <i class="uil uil-arrow-right"></i>
                 Explore Our Latest Works
             </div>
@@ -220,8 +220,8 @@
                     featuring weathered wood, sleek metal accents.
                 </p>
             </div>
-            <!-- %Work Sample Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-4 mb-16">
+            <!-- *Work Sample Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-4">
                 <div
                     class="md:col-span-2 lg:col-span-4 flex items-center gap-4 p-2 border-2 rounded-xl border-slate-200">
                     <img src="./assets/img1.png" alt="">
@@ -230,12 +230,12 @@
                         <p>The barn house captivates with its blend of rustic charm
                             and modern. The barn house captivates with its blend of
                             rustic charm and modern .</p>
-                        <!-- %Button -->
+                        <!-- *Button -->
                         <button class="flex items-center gap-2">
                             <h1 class="font-bold">
                                 View Details
                             </h1>
-                            <!-- %Arrow-icon -->
+                            <!-- *Arrow-icon -->
                             <div class=" text-1xl h-6 w-6  text-black bg-color-primary rounded-full">
                                 <i class="uil uil-arrow-up-right"></i>
                             </div>
@@ -257,12 +257,12 @@
                         <p>The barn house captivates with its blend of rustic charm
                             and modern. The barn house captivates with its blend of
                             rustic charm and modern .</p>
-                        <!-- %Button -->
+                        <!-- *Button -->
                         <button class="flex items-center gap-2">
                             <h1 class="font-bold">
                                 View Details
                             </h1>
-                            <!-- %Arrow-icon -->
+                            <!-- *Arrow-icon -->
                             <div class=" text-1xl h-6 w-6  text-black bg-color-primary rounded-full">
                                 <i class="uil uil-arrow-up-right"></i>
                             </div>
@@ -278,13 +278,17 @@
 
 
 
-        <!-- %Price Section -->
+        <!-- *Price Section -->
             <section id="price" class="py-10 sm:py-16 lg:py-24">
+                <div class="bg-color-secondary w-48 text-base font-semibold text-center rounded-full mx-auto my-4 mt-32">
+                    <i class="uil uil-arrow-right"></i>
+                    Explore Our Pricing
+                </div>
                 <div class="px-4 sm:px-6 lg:px-8">
                     <div class="text-center">
                         <h1 class="text-3xl font-bold sm:text-4xl lg:text-5xl">Pricing & Plans
                         </h1>
-                        <p class="my-4 text-base text-gray-600">The barn house captivates with its blend of rustic charm and modern sophistication,
+                        <p class="my-8 text-base text-gray-600">The barn house captivates with its blend of rustic charm and modern sophistication,
                         featuring weathered wood, sleek metal accents.</p>
                     </div>
 
@@ -439,9 +443,9 @@
 
 
 
-        <!-- %Articles & News Section -->
+        <!-- *Articles & News Section -->
         <section id="articles" class="bg-background mt-32 py-16">
-            <div class="bg-color-secondary w-40 text-center rounded-full mx-auto">
+            <div class="bg-color-secondary w-40 text-center text-base font-semibold rounded-full mx-auto">
                 <i class="uil uil-arrow-right"></i>
                 Rinterio News
             </div>
@@ -452,8 +456,8 @@
                     featuring weathered wood, sleek metal accents.
                 </p>
             </div>
-            <!-- %Work Sample Grid -->
-            <div class="mx-8 grid grid-cols-3 gap-8">
+            <!-- *Work Sample Grid -->
+            <div class="mx-8 grid md:grid-cols-3 gap-8">
                 <div class="p-4 rounded-xl bg-white">
                     <img class="mb-2" src="./assets/article1.png" alt="">
                     <div class="grid gap-2">
@@ -471,12 +475,12 @@
                             right of your home.</h1>
                         <p>The barn house captivates with its blend of rustic charm and modern sophistication,
                             featuring weathered wood, sleek metal accents.</p>
-                        <!-- %Button -->
+                        <!-- *Button -->
                         <button class="flex items-center gap-2">
                             <h1 class="font-bold">
                                 Read More
                             </h1>
-                            <!-- %Arrow-icon -->
+                            <!-- *Arrow-icon -->
                             <div class=" text-1xl h-6 w-6  text-black bg-color-primary rounded-full">
                                 <i class="uil uil-arrow-up-right"></i>
                             </div>
@@ -500,12 +504,12 @@
                             right of your home.</h1>
                         <p>The barn house captivates with its blend of rustic charm and modern sophistication,
                             featuring weathered wood, sleek metal accents.</p>
-                        <!-- %Button -->
+                        <!-- *Button -->
                         <button class="flex items-center gap-2">
                             <h1 class="font-bold">
                                 Read More
                             </h1>
-                            <!-- %Arrow-icon -->
+                            <!-- *Arrow-icon -->
                             <div class=" text-1xl h-6 w-6  text-black bg-color-primary rounded-full">
                                 <i class="uil uil-arrow-up-right"></i>
                             </div>
@@ -529,12 +533,12 @@
                             right of your home.</h1>
                         <p>The barn house captivates with its blend of rustic charm and modern sophistication,
                             featuring weathered wood, sleek metal accents.</p>
-                        <!-- %Button -->
+                        <!-- *Button -->
                         <button class="flex items-center gap-2">
                             <h1 class="font-bold">
                                 Read More
                             </h1>
-                            <!-- %Arrow-icon -->
+                            <!-- *Arrow-icon -->
                             <div class=" text-1xl h-6 w-6  text-black bg-color-primary rounded-full">
                                 <i class="uil uil-arrow-up-right"></i>
                             </div>
@@ -545,11 +549,11 @@
 
 
         </section>
-        <!-- %Project Discussion Section -->
+        <!-- *Project Discussion Section -->
         <section id="discussion" class=" py-32">
-            <div class="bg-color-secondary w-40 text-center rounded-full mx-auto">
+            <div class="bg-color-secondary w-40 text-center text-base font-semibold rounded-full mx-auto">
                 <i class="uil uil-arrow-right"></i>
-                Rinterio News
+                Let's Contact
             </div>
             <div class="mx-4 my-4 flex flex-col gap-4 items-center text-center">
                 <h1 class="text-3xl font-bold sm:text-4xl lg:text-5xl">Let's Discuss Next Project</h1>
@@ -558,22 +562,22 @@
                     featuring weathered wood, sleek metal accents.
                 </p>
             </div>
-            <!-- %Input Form -->
-            <div class="">
-                <form action="" class="mx-36 grid gap-4 grid-cols-2">
+            <!-- *Input Form -->
+            <div class="mx-4">
+                <form action="" class="md:mx-36 grid gap-4 grid-cols-1 md:grid-cols-2">
                     <input class="p-3 rounded-3xl" placeholder="First Name *" required type="text" name="" id="">
                     <input class="p-3 rounded-3xl" type="text" placeholder="Last Name *" required name="" id="">
                     <input class="p-3 rounded-3xl" type="number" placeholder="Phone Number *" required name="" id="">
                     <input class="p-3 rounded-3xl" type="email" placeholder="Email Address *" required name="" id="">
-                    <textarea class="p-3 rounded-3xl col-span-2 row-span-12" placeholder="Write your message here"
+                    <textarea class="p-3 rounded-3xl md:col-span-2 row-span-12" placeholder="Write your message here"
                         name="" id=""></textarea>
-                    <!-- %Form Submit Button -->
+                    <!-- *Form Submit Button -->
                     <button
-                        class="flex justify-center items-center col-span-2 gap-2 px-4 py-2 rounded-full bg-color-primary">
+                        class="flex justify-center items-center md:col-span-2 gap-2 px-4 py-2 rounded-full bg-color-primary">
                         <h1 class="font-bold text-xl">
                             Send Mail
                         </h1>
-                        <!-- %Arrow-icon -->
+                        <!-- *Arrow-icon -->
                         <div class=" text-2xl h-8 w-8  text-white bg-black rounded-full">
                             <i class="uil uil-arrow-up-right"></i>
                         </div>
@@ -582,32 +586,32 @@
             </div>
 
         </section>
-        <!-- %Footer Section -->
-        <footer class="bg-black  text-center text-white py-16 ">
-            <!-- %Company Logo -->
+        <!-- *Footer Section -->
+        <footer class="bg-black text-center text-white py-16 ">
+            <!-- *Company Logo -->
             <div class="flex gap-2 justify-center items-center py-5">
                 <span class="text-2xl h-8 w-8 text-black bg-color-primary rounded-full">
                     <i class="uil uil-arrow-up-right"></i>
                 </span>
-                <h1>Rinterio</h1>
+                <h1 class="font-bold text-3xl">Rinterio</h1>
             </div>
             <p class="text-neutral-500">The barn house captivates with its blend of rustic charm and modern sophistication,
                 featuring weathered wood, sleek metal accents.</p>
-                <!-- %Footer Menu -->
-            <div class="flex justify-around p-10">
+                <!-- *Footer Menu -->
+            <div class="flex flex-col gap-6 md:flex-row justify-around p-10">
                 <a href="#">Home</a>
                 <a href="">Services</a>
                 <a href="">Portfolio</a>
                 <a href="">Blogs</a>
                 <a href="">Contact Us</a>
             </div>
-            <!-- %Footer Button -->
+            <!-- *Footer Button -->
             <div class="flex justify-center">
                 <button class="flex justify-center items-center gap-2 px-4 py-2 rounded-full bg-color-primary">
                     <h1 class="font-bold text-xl text-black">
                         Book Consultant
                     </h1>
-                    <!-- %Arrow-icon -->
+                    <!-- *Arrow-icon -->
                     <div class=" text-xl h-7 w-7  text-white bg-black rounded-full">
                         <i class="uil uil-arrow-up-right"></i>
                     </div>
