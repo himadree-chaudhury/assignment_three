@@ -1,8 +1,13 @@
-*{
- font-family: "Manrope", sans-serif;
+/* *Universal Design */
+
+* {
+  font-family: "Manrope", sans-serif;
 }
-#discussion{
-    background-image: url('./assets/bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+
+/* *Discussion Section Background */
+
+#discussion {
+  background-image: url("./assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

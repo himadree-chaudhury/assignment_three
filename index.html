@@ -8,19 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-
     <!-- *Icon-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-
-
-
     <!-- *DaisyUI CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon">
-
     <!-- *Tailwind CDN -->
-
     <script src="https://cdn.tailwindcss.com"></script>
 
     <script>
@@ -37,26 +31,24 @@
             }
         }
     </script>
-
     <!-- *Custom CSS -->
     <link rel="stylesheet" href="style.css">
-
+    <!-- *Website Title -->
     <title>Rinterio</title>
-
-
 </head>
 
 <body>
-    <main class="">
+    <main>
         <!-- *Header Section -->
         <header class="bg-gradient-to-b from-[#f6f6f6] ">
             <!-- *NavBar -->
             <nav class="max-w-screen-2xl mx-auto">
-                <div class="p-4  flex items-center justify-between">
+                <div class="p-4 flex items-center justify-between">
                     <!-- *Nav Start -->
                     <div>
                         <!-- *Company Logo -->
                         <div class="flex gap-2 items-center">
+                            <!-- *Arrow Icon -->
                             <span class="text-2xl h-8 w-8 text-black bg-color-primary text-center rounded-full">
                                 <i class="uil uil-arrow-up-right"></i>
                             </span>
@@ -68,10 +60,10 @@
                         <!-- *Navigation Menu -->
                         <div class="flex gap-6 justify-around font-light">
                             <a class="font-bold" href="#">Home</a>
-                            <a href="">Services</a>
-                            <a href="">Portfolio</a>
-                            <a href="">Blogs</a>
-                            <a href="">Contact Us</a>
+                            <a href="#price">Services</a>
+                            <a href="#portfolio">Portfolio</a>
+                            <a href="#articles">Blogs</a>
+                            <a href="#discussion">Contact Us</a>
                         </div>
                     </div>
                     <!-- *Nav End -->
@@ -89,29 +81,32 @@
                             <h1 class="font-bold text-xl text-black">
                                 Book Consultant
                             </h1>
-                            <!-- *Arrow-icon -->
+                            <!-- *Arrow Icon -->
                             <div class=" text-xl h-7 w-7  text-white bg-black rounded-full">
                                 <i class="uil uil-arrow-up-right"></i>
                             </div>
                         </button>
                     </div>
-
                     <!-- *Hamburger Icon for only Medium and Small Devices -->
                     <div class="md:hidden block">
+                        <!-- *Hamburger Icon -->
                         <button class="text-2xl font-bold h-10 w-10 bg-white rounded-full">
                             <i class="uil uil-bars"></i>
                         </button>
+                        <!-- *Hamburger Menu -->
                         <div class="hidden">
                             <ul class="space-y-2">
                                 <li><a class="font-bold" href="#">Home</a></li>
-                                <li><a href="">Services</a></li>
-                                <li><a href="">Portfolio</a></li>
-                                <li><a href="">Blogs</a></li>
-                                <li><a href="">Contact Us</a></li>
+                                <li><a href="#price">Services</a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>
+                                <li><a href="#articles">Blogs</a></li>
+                                <li><a href="#discussion">Contact Us</a></li>
                                 <li class="space-x-1">
+                                    <!-- *Search Button -->
                                     <button class=" text-xl h-9 w-9 bg-white rounded-full">
                                         <i class="uil uil-search"></i>
                                     </button>
+                                    <!-- *Cart Button -->
                                     <button class=" text-xl h-9 w-9 bg-white rounded-full">
                                         <i class="uil uil-shopping-cart-alt"></i>
                                     </button>
@@ -120,8 +115,6 @@
                         </div>
                     </div>
                 </div>
-
-
             </nav>
 
 
@@ -147,7 +140,7 @@
                         <h1 class="font-bold text-xl">
                             View Details
                         </h1>
-                        <!-- *Arrow-icon -->
+                        <!-- *Arrow Icon -->
                         <div class=" text-2xl h-8 w-8  text-black bg-color-primary rounded-full">
                             <i class="uil uil-arrow-up-right"></i>
                         </div>
@@ -162,8 +155,8 @@
                 <div class="mx-4 flex flex-col lg:flex-row  justify-evenly items-center gap-4 ">
                     <!-- *Left Passage -->
                     <div class="flex flex-col gap-4">
-                        <!-- *Floating Vector Design -->
                         <div class="relative">
+                            <!-- *Floating Vector Design -->
                             <div class="hidden lg:flex absolute -left-16 -top-14">
                                 <img src="./assets/Vector.png" alt="">
                             </div>
@@ -181,6 +174,7 @@
                         </p>
                         <!-- *About Grid -->
                         <div>
+                            <!-- *Commercial Part-->
                             <div class="flex items-center gap-4 bg-white rounded-xl p-2 mb-4">
                                 <img src="./assets/commercial.png" alt="">
                                 <div>
@@ -189,6 +183,7 @@
                                         productivity and customer experience</p>
                                 </div>
                             </div>
+                            <!-- *Residential Part-->
                             <div class="flex items-center gap-4  bg-white rounded-xl p-2">
                                 <img src="./assets/residential.png" alt="">
                                 <div>
@@ -207,32 +202,32 @@
                 <!-- *About Counter Grid-->
                 <div
                     class="mx-4 my-12 py-4 rounded-xl bg-white grid grid-cols-2 gap-6 lg:grid-cols-4 justify-items-center text-center">
+                    <!-- *Review -->
                     <div class="space-y-2">
                         <i class="uil uil-feedback text-4xl font-bold "></i>
                         <h1 class="text-5xl font-extrabold">235+</h1>
                         <p>Happy Client Review</p>
                     </div>
+                    <!-- *Department -->
                     <div class="space-y-2">
                         <i class="uil uil-estate text-4xl font-bold"></i>
                         <h1 class="text-5xl font-extrabold">50+</h1>
                         <p>Work Departments</p>
                     </div>
+                    <!-- *Clients -->
                     <div class="space-y-2">
                         <i class="uil uil-smile text-4xl font-bold"></i>
                         <h1 class="text-5xl font-extrabold">30k+</h1>
                         <p>Our Happy Clients</p>
                     </div>
+                    <!-- *Staff -->
                     <div class="space-y-2">
                         <i class="uil uil-users-alt text-4xl font-bold"></i>
                         <h1 class="text-5xl font-extrabold">307+</h1>
                         <p>Staff Members</p>
                     </div>
                 </div>
-
             </div>
-
-
-
         </section>
         <!-- *Work Process Section -->
         <section id="work-process" class="bg-background pb-20">
@@ -249,21 +244,25 @@
                     </p>
                     <!-- *Process Grid -->
                     <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 ">
+                        <!-- *Concept -->
                         <div class="bg-[#e7c1d3] grid gap-2 p-4 rounded-xl">
                             <img src="./assets/concept.png" alt="">
                             <h1 class="font-bold text-lg">Concept</h1>
                             <p>Defines vision, function, aesthetics, and spatial layout of project</p>
                         </div>
+                        <!-- *Design -->
                         <div class="bg-[#efda6e] grid gap-2 p-4 rounded-xl">
                             <img src="./assets/flow-chart.png" alt="">
                             <h1 class="font-bold text-lg">Design Process</h1>
                             <p>Iterative development, translating ideas into feasible, functional design solutions</p>
                         </div>
+                        <!-- *Supervision -->
                         <div class="bg-[#96c7b2] grid gap-2 p-4 rounded-xl">
                             <img src="./assets/vision.png" alt="">
                             <h1 class="font-bold text-lg">Supervision</h1>
                             <p>Monitors project execution, ensuring quality standards and design adherence onsite</p>
                         </div>
+                        <!-- *Budget -->
                         <div class="bg-[#77aaea] grid gap-2 p-4 rounded-xl">
                             <img src="./assets/budget-planning.png" alt="">
                             <h1 class="font-bold text-lg">Budget Planning</h1>
@@ -290,6 +289,7 @@
                 </div>
                 <!-- *Work Sample Grid -->
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-4">
+                    <!-- *Item 1 -->
                     <div
                         class="md:col-span-2 lg:col-span-4 flex  md:flex-row flex-col items-center gap-4 p-2 border-2 rounded-xl border-slate-200">
                         <img src="./assets/img1.png" alt="">
@@ -298,26 +298,29 @@
                             <p>Celestial Heights is an innovative hillside residence designed to capture panoramic views
                                 of the surrounding landscape.
                                 This architectural gem blends modern design with natural elements</p>
-                            <!-- *Button -->
+                            <!-- *Details Button -->
                             <button class="flex items-center gap-2">
                                 <h1 class="font-bold">
                                     View Details
                                 </h1>
-                                <!-- *Arrow-icon -->
+                                <!-- *Arrow Icon -->
                                 <div class=" text-1xl h-6 w-6  text-black bg-color-primary rounded-full">
                                     <i class="uil uil-arrow-up-right"></i>
                                 </div>
                             </button>
                         </div>
                     </div>
+                    <!-- *Item 2 -->
                     <div
                         class="md:col-span-1 lg:col-span-2 justify-items-center p-2 border-2 rounded-xl border-slate-200">
                         <img src="./assets/img2.png" alt="">
                     </div>
+                    <!-- *Item 3 -->
                     <div
                         class="md:col-span-1 lg:col-span-1 justify-items-center items-center p-2 border-2 rounded-xl border-slate-200">
                         <img src="./assets/img3.png" alt="">
                     </div>
+                    <!-- *Item 4 -->
                     <div
                         class="md:col-span-2 lg:col-span-4 flex  md:flex-row flex-col  items-center gap-4 p-2 border-2 rounded-xl border-slate-200">
                         <img src="./assets/img4.png" alt="">
@@ -327,18 +330,19 @@
                                 connectivity. Nestled in a vibrant
                                 community, this residence emphasizes balance between modern living and the natural
                                 environment</p>
-                            <!-- *Button -->
+                            <!-- *Details Button -->
                             <button class="flex items-center gap-2">
                                 <h1 class="font-bold">
                                     View Details
                                 </h1>
-                                <!-- *Arrow-icon -->
+                                <!-- *Arrow Icon -->
                                 <div class=" text-1xl h-6 w-6  text-black bg-color-primary rounded-full">
                                     <i class="uil uil-arrow-up-right"></i>
                                 </div>
                             </button>
                         </div>
                     </div>
+                    <!-- *Item 5 -->
                     <div
                         class="md:col-span-1 lg:col-span-1 justify-items-center p-2 border-2 rounded-xl border-slate-200">
                         <img src="./assets/img5.png" alt="">
@@ -359,8 +363,9 @@
                     <p class="my-8 text-base text-gray-600">Flexible pricing tailored to project scope, with competitive
                         rates and customized plans</p>
                 </div>
-
+                <!-- *Price Grid -->
                 <div class="grid grid-cols-1 gap-6 mt-8 text-center lg:grid-cols-3">
+                    <!-- *Standard Price -->
                     <div class="border-2 border-gray-100 rounded-xl">
                         <div class="p-8 xl:px-12">
                             <h3 class="text-base font-semibold text-lime-600">Standard</h3>
@@ -407,7 +412,7 @@
                             <p class="mt-4 text-sm text-gray-500">7 Days Moneyback Guarantee</p>
                         </div>
                     </div>
-
+                    <!-- *Professional -->
                     <div class="border-2 border-gray-100 rounded-xl shadow-lg">
                         <div class="p-8 xl:px-12">
                             <h3 class="text-base font-semibold text-lime-600">Professional</h3>
@@ -454,7 +459,7 @@
                             <p class="mt-4 text-sm text-gray-500">14 Days Moneyback Guarantee</p>
                         </div>
                     </div>
-
+                    <!-- *Exclusive -->
                     <div class="border-2 border-gray-100 rounded-md">
                         <div class="p-8 xl:px-12">
                             <h3 class="text-base font-semibold text-lime-600">Exclusive</h3>
@@ -521,6 +526,7 @@
                 </div>
                 <!-- *Work Sample Grid -->
                 <div class="mx-8 grid md:grid-cols-3 gap-8">
+                    <!-- *Blog 1 -->
                     <div class="p-4 rounded-xl bg-white">
                         <img class="mb-2" src="./assets/article1.png" alt="">
                         <div class="grid gap-2">
@@ -537,18 +543,19 @@
                             <h1 class="font-bold text-lg">Embracing Modern Aesthetics in Urban Spaces</h1>
                             <p>In the heart of our bustling cities, contemporary architecture stands as a testament to
                                 innovation and creativity.</p>
-                            <!-- *Button -->
+                            <!-- *Read More Button -->
                             <button class="flex items-center gap-2">
                                 <h1 class="font-bold">
                                     Read More
                                 </h1>
-                                <!-- *Arrow-icon -->
+                                <!-- *Arrow Icon -->
                                 <div class=" text-1xl h-6 w-6  text-black bg-color-primary rounded-full">
                                     <i class="uil uil-arrow-up-right"></i>
                                 </div>
                             </button>
                         </div>
                     </div>
+                    <!-- *Blog 2 -->
                     <div class="p-4 rounded-xl bg-white">
                         <img class="mb-2" src="./assets/article2.png" alt="">
                         <div class="grid gap-2">
@@ -566,18 +573,19 @@
                             <p>Sustainability is a responsibility. As I embarked on a project for a family who
                                 prioritized
                                 eco-friendly living, I felt a surge of excitement.</p>
-                            <!-- *Button -->
+                            <!-- *Read More Button -->
                             <button class="flex items-center gap-2">
                                 <h1 class="font-bold">
                                     Read More
                                 </h1>
-                                <!-- *Arrow-icon -->
+                                <!-- *Arrow Icon -->
                                 <div class=" text-1xl h-6 w-6  text-black bg-color-primary rounded-full">
                                     <i class="uil uil-arrow-up-right"></i>
                                 </div>
                             </button>
                         </div>
                     </div>
+                    <!-- *Blog 3 -->
                     <div class="p-4 rounded-xl bg-white">
                         <img class="mb-2" src="./assets/article3.png" alt="">
                         <div class="grid gap-2">
@@ -595,12 +603,12 @@
                             <p>Interior design is more than just arranging furniture; it's about creating environments
                                 that enhance the quality of life
                                 and culture of the occupants.</p>
-                            <!-- *Button -->
+                            <!-- *Read More Button -->
                             <button class="flex items-center gap-2">
                                 <h1 class="font-bold">
                                     Read More
                                 </h1>
-                                <!-- *Arrow-icon -->
+                                <!-- *Arrow Icon -->
                                 <div class=" text-1xl h-6 w-6  text-black bg-color-primary rounded-full">
                                     <i class="uil uil-arrow-up-right"></i>
                                 </div>
@@ -640,7 +648,7 @@
                             <h1 class="font-bold text-xl">
                                 Send Mail
                             </h1>
-                            <!-- *Arrow-icon -->
+                            <!-- *Arrow Icon -->
                             <div class=" text-2xl h-8 w-8  text-white bg-black rounded-full">
                                 <i class="uil uil-arrow-up-right"></i>
                             </div>
@@ -659,16 +667,16 @@
                     </span>
                     <h1 class="font-bold text-3xl">Rinterio</h1>
                 </div>
-                <p class="text-neutral-500 mx-4">Your vision is unique, your project is extraordinary.Are you ready to
+                <p class="text-neutral-500 mx-4">Your vision is unique, your project is extraordinary. Are you ready to
                     see it transformed into an architectural masterpiece? Contact Rinterio today and
                     let's bring your architectural dreams to life.</p>
                 <!-- *Footer Menu -->
                 <div class="flex flex-col gap-6 md:flex-row md:gap-16 justify-center p-10 mx-4 font-semibold">
                     <a href="#">Home</a>
-                    <a href="">Services</a>
-                    <a href="">Portfolio</a>
-                    <a href="">Blogs</a>
-                    <a href="">Contact Us</a>
+                    <a href="#price">Services</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#articles">Blogs</a>
+                    <a href="#discussion">Contact Us</a>
                 </div>
                 <!-- *Footer Button -->
                 <div class="flex justify-center">
@@ -676,7 +684,7 @@
                         <h1 class="font-bold text-xl text-black">
                             Book Consultant
                         </h1>
-                        <!-- *Arrow-icon -->
+                        <!-- *Arrow Icon -->
                         <div class=" text-xl h-7 w-7  text-white bg-black rounded-full">
                             <i class="uil uil-arrow-up-right"></i>
                         </div>
