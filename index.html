@@ -47,9 +47,81 @@
 <body>
     <main class="max-w-screen-2xl mx-auto">
         <!-- *Header Section -->
-        <header class="">
+        <header class="bg-gradient-to-b from-[#f6f6f6] ">
             <!-- *NavBar -->
             <nav>
+                <div class="p-4  flex items-center justify-between">
+                    <!-- *Nav Start -->
+                    <div>
+                        <!-- *Company Logo -->
+                        <div class="flex gap-2 items-center">
+                            <span class="text-2xl h-8 w-8 text-black bg-color-primary text-center rounded-full">
+                                <i class="uil uil-arrow-up-right"></i>
+                            </span>
+                            <h1 class="font-extrabold text-3xl">Rinterio</h1>
+                        </div>
+                    </div>
+                    <!-- *Nav Middle -->
+                    <div class="md:flex hidden">
+                        <!-- *Navigation Menu -->
+                        <div class="flex gap-6 justify-around font-light">
+                            <a class="font-bold" href="#">Home</a>
+                            <a href="">Services</a>
+                            <a href="">Portfolio</a>
+                            <a href="">Blogs</a>
+                            <a href="">Contact Us</a>
+                        </div>
+                    </div>
+                    <!-- *Nav End -->
+                    <div class="md:flex hidden items-center gap-3">
+                        <!-- *Search Button -->
+                        <button class=" text-xl h-9 w-9 bg-white rounded-full">
+                            <i class="uil uil-search"></i>
+                        </button>
+                        <!-- *Cart Button -->
+                        <button class=" text-xl h-9 w-9 bg-white rounded-full">
+                            <i class="uil uil-shopping-cart-alt"></i>
+                        </button>
+                        <!-- *Consult Button -->
+                        <button class="flex justify-center items-center gap-2 px-4 py-2 rounded-full bg-color-primary">
+                            <h1 class="font-bold text-xl text-black">
+                                Book Consultant
+                            </h1>
+                            <!-- *Arrow-icon -->
+                            <div class=" text-xl h-7 w-7  text-white bg-black rounded-full">
+                                <i class="uil uil-arrow-up-right"></i>
+                            </div>
+                        </button>
+                    </div>
+
+                    <!-- *Hamburger Icon for only Medium and Small Devices -->
+                    <div class="md:hidden block">
+                        <button class="text-2xl font-bold">
+                            <i class="uil uil-bars"></i>
+                        </button>
+                        <div class="hidden absolute">
+                            <ul class="space-y-2">
+                                <li><a class="font-bold" href="#">Home</a></li>
+                                <li><a href="">Services</a></li>
+                                <li><a href="">Portfolio</a></li>
+                                <li><a href="">Blogs</a></li>
+                                <li><a href="">Contact Us</a></li>
+                                <li class="space-x-1">
+                                    <button class=" text-xl h-9 w-9 bg-white rounded-full">
+                                        <i class="uil uil-search"></i>
+                                    </button>
+                                    <button class=" text-xl h-9 w-9 bg-white rounded-full">
+                                        <i class="uil uil-shopping-cart-alt"></i>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
 
 
 
@@ -66,7 +138,8 @@
                     striking appearance
                 </h1>
                 <!-- *Heading Paragraph -->
-                <p class="m-4 text-base text-gray-600">The barn house captivates with its blend of rustic charm and modern
+                <p class="m-4 text-base text-gray-600">The barn house captivates with its blend of rustic charm and
+                    modern
                     sophistication, featuring weathered wood, sleek
                     metal
                     accents, and large windows that flood the space with natural light.</p>
@@ -128,7 +201,8 @@
                 </div>
             </div>
             <!-- *Counter Grid-->
-            <div class="mx-4 my-12 py-4 rounded-xl bg-white grid grid-cols-2 gap-6 lg:grid-cols-4 justify-items-center text-center">
+            <div
+                class="mx-4 my-12 py-4 rounded-xl bg-white grid grid-cols-2 gap-6 lg:grid-cols-4 justify-items-center text-center">
                 <div class="space-y-2">
                     <i class="uil uil-feedback text-4xl font-bold "></i>
                     <h1 class="text-5xl font-extrabold">235+</h1>
@@ -209,7 +283,7 @@
 
         <!-- *Portfolio Section -->
         <section id="portfolio" class="mx-4">
-            <div class="bg-color-secondary w-60 text-base font-semibold text-center rounded-full mx-auto mt-32">
+            <div class="bg-color-secondary w-60 text-base font-semibold text-center rounded-full mx-auto mt-16">
                 <i class="uil uil-arrow-right"></i>
                 Explore Our Latest Works
             </div>
@@ -279,163 +353,164 @@
 
 
         <!-- *Price Section -->
-            <section id="price" class="py-10 sm:py-16 lg:py-24">
-                <div class="bg-color-secondary w-48 text-base font-semibold text-center rounded-full mx-auto my-4 mt-32">
-                    <i class="uil uil-arrow-right"></i>
-                    Explore Our Pricing
-                </div>
-                <div class="px-4 sm:px-6 lg:px-8">
-                    <div class="text-center">
-                        <h1 class="text-3xl font-bold sm:text-4xl lg:text-5xl">Pricing & Plans
-                        </h1>
-                        <p class="my-8 text-base text-gray-600">The barn house captivates with its blend of rustic charm and modern sophistication,
+        <section id="price" class="py-10 sm:py-16 lg:py-24">
+            <div class="bg-color-secondary w-48 text-base font-semibold text-center rounded-full mx-auto my-4">
+                <i class="uil uil-arrow-right"></i>
+                Explore Our Pricing
+            </div>
+            <div class="px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h1 class="text-3xl font-bold sm:text-4xl lg:text-5xl">Pricing & Plans
+                    </h1>
+                    <p class="my-8 text-base text-gray-600">The barn house captivates with its blend of rustic charm and
+                        modern sophistication,
                         featuring weathered wood, sleek metal accents.</p>
+                </div>
+
+                <div class="grid grid-cols-1 gap-6 mt-8 text-center lg:grid-cols-3">
+                    <div class="border-2 border-gray-100 rounded-xl">
+                        <div class="p-8 xl:px-12">
+                            <h3 class="text-base font-semibold text-lime-600">Standard</h3>
+                            <p class="text-5xl font-bold text-black mt-7">$29</p>
+                            <p class="mt-3 text-base text-gray-600">One-time payment</p>
+
+                            <ul class="flex flex-col items-start space-y-5 text-left mt-9">
+                                <li class="inline-flex items-center space-x-2">
+                                    <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
+                                    <span class="text-base font-medium text-gray-900"> 1 Domain License </span>
+                                </li>
+                                <li class="inline-flex items-center space-x-2"><i
+                                        class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
+                                    <span class="text-base font-medium text-gray-900"> Full Celebration Library
+                                    </span>
+                                </li>
+                                <li class="inline-flex items-center space-x-2">
+
+                                    <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
+                                    <span class="text-base font-medium text-gray-900"> 120+ Coded Blocks </span>
+                                </li>
+                                <li class="inline-flex items-center space-x-2">
+
+                                    <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
+                                    <span class="text-base font-medium text-gray-900"> Design Files Included </span>
+                                </li>
+                                <li class="inline-flex items-center space-x-2">
+                                    <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
+                                    <span
+                                        class="pb-0.5 text-base font-medium text-gray-900 border-b border-black border-dashed">
+                                        Premium Support </span>
+                                </li>
+                            </ul>
+
+                            <a href="#" title=""
+                                class="inline-flex gap-2 items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-black bg-color-primary rounded-full"
+                                role="button">
+                                <h1>Get full access</h1>
+                                <span class="h-6 w-6  text-color-primary bg-black rounded-full">
+                                    <i class="uil uil-arrow-up-right"></i>
+
+                                </span>
+                            </a>
+                            <p class="mt-4 text-sm text-gray-500">14 Days Moneyback Guarantee</p>
+                        </div>
                     </div>
 
-                    <div class="grid grid-cols-1 gap-6 mt-8 text-center lg:grid-cols-3">
-                        <div class="border-2 border-gray-100 rounded-xl">
-                            <div class="p-8 xl:px-12">
-                                <h3 class="text-base font-semibold text-lime-600">Standard</h3>
-                                <p class="text-5xl font-bold text-black mt-7">$29</p>
-                                <p class="mt-3 text-base text-gray-600">One-time payment</p>
+                    <div class="border-2 border-gray-100 rounded-xl shadow-lg">
+                        <div class="p-8 xl:px-12">
+                            <h3 class="text-base font-semibold text-lime-600">Professional</h3>
+                            <p class="text-5xl font-bold text-black mt-7">$49</p>
+                            <p class="mt-3 text-base text-gray-600">One-time payment</p>
 
-                                <ul class="inline-flex flex-col items-start space-y-5 text-left mt-9">
-                                    <li class="inline-flex items-center space-x-2">
-                                        <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
-                                        <span class="text-base font-medium text-gray-900"> 1 Domain License </span>
-                                    </li>
-                                    <li class="inline-flex items-center space-x-2"><i
-                                            class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
-                                        <span class="text-base font-medium text-gray-900"> Full Celebration Library
-                                        </span>
-                                    </li>
-                                    <li class="inline-flex items-center space-x-2">
+                            <ul class="flex flex-col items-start space-y-5 text-left mt-9">
+                                <li class="inline-flex items-center space-x-2">
 
-                                        <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
-                                        <span class="text-base font-medium text-gray-900"> 120+ Coded Blocks </span>
-                                    </li>
-                                    <li class="inline-flex items-center space-x-2">
+                                    <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
+                                    <span class="text-base font-medium text-gray-900"> 5 Domain License </span>
+                                </li>
+                                <li class="inline-flex items-center space-x-2">
 
-                                        <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
-                                        <span class="text-base font-medium text-gray-900"> Design Files Included </span>
-                                    </li>
-                                    <li class="inline-flex items-center space-x-2">
-                                        <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
-                                        <span
-                                            class="pb-0.5 text-base font-medium text-gray-900 border-b border-black border-dashed">
-                                            Premium Support </span>
-                                    </li>
-                                </ul>
-
-                                <a href="#" title=""
-                                    class="inline-flex gap-2 items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-black bg-color-primary rounded-full"
-                                    role="button">
-                                    <h1>Get full access</h1>
-                                    <span class="h-6 w-6  text-color-primary bg-black rounded-full">
-                                        <i class="uil uil-arrow-up-right"></i>
-
+                                    <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
+                                    <span class="text-base font-medium text-gray-900"> Full Celebration Library
                                     </span>
-                                </a>
-                                <p class="mt-4 text-sm text-gray-500">14 Days Moneyback Guarantee</p>
-                            </div>
+                                </li>
+                                <li class="inline-flex items-center space-x-2">
+
+                                    <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
+                                    <span class="text-base font-medium text-gray-900"> 120+ Coded Blocks </span>
+                                </li>
+                                <li class="inline-flex items-center space-x-2">
+
+                                    <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
+                                    <span class="text-base font-medium text-gray-900"> Design Files Included </span>
+                                </li>
+                                <li class="inline-flex items-center space-x-2">
+                                    <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
+                                    <span
+                                        class="pb-0.5 text-base font-medium text-gray-900 border-b border-black border-dashed">
+                                        Premium Support </span>
+                                </li>
+                            </ul>
+                            <a href="#" title=""
+                                class="inline-flex gap-2 items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-black rounded-full bg-color-primary"
+                                role="button">
+                                <h1>Get full access</h1>
+                                <span class="h-6 w-6  text-color-primary bg-black rounded-full">
+                                    <i class="uil uil-arrow-up-right"></i>
+                                </span>
+                            </a>
+                            <p class="mt-4 text-sm text-gray-500">14 Days Moneyback Guarantee</p>
                         </div>
+                    </div>
 
-                        <div class="border-2 border-gray-100 rounded-xl shadow-lg">
-                            <div class="p-8 xl:px-12">
-                                <h3 class="text-base font-semibold text-lime-600">Professional</h3>
-                                <p class="text-5xl font-bold text-black mt-7">$49</p>
-                                <p class="mt-3 text-base text-gray-600">One-time payment</p>
+                    <div class="border-2 border-gray-100 rounded-md">
+                        <div class="p-8 xl:px-12">
+                            <h3 class="text-base font-semibold text-lime-600">Exclusive</h3>
+                            <p class="text-5xl font-bold text-black mt-7">$79</p>
+                            <p class="mt-3 text-base text-gray-600">One-time payment</p>
 
-                                <ul class="inline-flex flex-col items-start space-y-5 text-left mt-9">
-                                    <li class="inline-flex items-center space-x-2">
-
-                                        <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
-                                        <span class="text-base font-medium text-gray-900"> 5 Domain License </span>
-                                    </li>
-                                    <li class="inline-flex items-center space-x-2">
-
-                                        <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
-                                        <span class="text-base font-medium text-gray-900"> Full Celebration Library
-                                        </span>
-                                    </li>
-                                    <li class="inline-flex items-center space-x-2">
-
-                                        <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
-                                        <span class="text-base font-medium text-gray-900"> 120+ Coded Blocks </span>
-                                    </li>
-                                    <li class="inline-flex items-center space-x-2">
-
-                                        <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
-                                        <span class="text-base font-medium text-gray-900"> Design Files Included </span>
-                                    </li>
-                                    <li class="inline-flex items-center space-x-2">
-                                        <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
-                                        <span
-                                            class="pb-0.5 text-base font-medium text-gray-900 border-b border-black border-dashed">
-                                            Premium Support </span>
-                                    </li>
-                                </ul>
-                                <a href="#" title=""
-                                    class="inline-flex gap-2 items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-black rounded-full bg-color-primary"
-                                    role="button">
-                                    <h1>Get full access</h1>
-                                    <span class="h-6 w-6  text-color-primary bg-black rounded-full">
-                                        <i class="uil uil-arrow-up-right"></i>
+                            <ul class="flex flex-col items-start space-y-5 text-left mt-9">
+                                <li class="inline-flex items-center space-x-2">
+                                    <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
+                                    <span class="text-base font-medium text-gray-900"> Unlimited Domain License
                                     </span>
-                                </a>
-                                <p class="mt-4 text-sm text-gray-500">14 Days Moneyback Guarantee</p>
-                            </div>
-                        </div>
+                                </li>
+                                <li class="inline-flex items-center space-x-2">
 
-                        <div class="border-2 border-gray-100 rounded-md">
-                            <div class="p-8 xl:px-12">
-                                <h3 class="text-base font-semibold text-lime-600">Exclusive</h3>
-                                <p class="text-5xl font-bold text-black mt-7">$79</p>
-                                <p class="mt-3 text-base text-gray-600">One-time payment</p>
-
-                                <ul class="inline-flex flex-col items-start space-y-5 text-left mt-9">
-                                    <li class="inline-flex items-center space-x-2">
-                                        <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
-                                        <span class="text-base font-medium text-gray-900"> Unlimited Domain License
-                                        </span>
-                                    </li>
-                                    <li class="inline-flex items-center space-x-2">
-
-                                        <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
-                                        <span class="text-base font-medium text-gray-900"> Full Celebration Library
-                                        </span>
-                                    </li>
-                                    <li class="inline-flex items-center space-x-2">
-                                        <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
-                                        <span class="text-base font-medium text-gray-900"> 120+ Coded Blocks </span>
-                                    </li>
-                                    <li class="inline-flex items-center space-x-2">
-                                        <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
-                                        <span class="text-base font-medium text-gray-900"> Design Files Included </span>
-                                    </li>
-                                    <li class="inline-flex items-center space-x-2">
-
-                                        <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
-                                        <span
-                                            class="pb-0.5 text-base font-medium text-gray-900 border-b border-black border-dashed">
-                                            Premium Support </span>
-                                    </li>
-                                </ul>
-                                <a href="#" title=""
-                                    class="inline-flex gap-2 items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-black bg-color-primary rounded-full"
-                                    role="button">
-                                    <h1>Get full access</h1>
-                                    <span class="h-6 w-6  text-color-primary bg-black rounded-full">
-                                        <i class="uil uil-arrow-up-right"></i>
-
+                                    <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
+                                    <span class="text-base font-medium text-gray-900"> Full Celebration Library
                                     </span>
-                                </a>
-                                <p class="mt-4 text-sm text-gray-500">14 Days Moneyback Guarantee</p>
-                            </div>
+                                </li>
+                                <li class="inline-flex items-center space-x-2">
+                                    <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
+                                    <span class="text-base font-medium text-gray-900"> 120+ Coded Blocks </span>
+                                </li>
+                                <li class="inline-flex items-center space-x-2">
+                                    <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
+                                    <span class="text-base font-medium text-gray-900"> Design Files Included </span>
+                                </li>
+                                <li class="inline-flex items-center space-x-2">
+
+                                    <i class="uil uil-check flex-shrink-0 w-5 h-5 text-color-primary text-xl"></i>
+                                    <span
+                                        class="pb-0.5 text-base font-medium text-gray-900 border-b border-black border-dashed">
+                                        Premium Support </span>
+                                </li>
+                            </ul>
+                            <a href="#" title=""
+                                class="inline-flex gap-2 items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-black bg-color-primary rounded-full"
+                                role="button">
+                                <h1>Get full access</h1>
+                                <span class="h-6 w-6  text-color-primary bg-black rounded-full">
+                                    <i class="uil uil-arrow-up-right"></i>
+
+                                </span>
+                            </a>
+                            <p class="mt-4 text-sm text-gray-500">14 Days Moneyback Guarantee</p>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
 
 
@@ -444,7 +519,7 @@
 
 
         <!-- *Articles & News Section -->
-        <section id="articles" class="bg-background mt-32 py-16">
+        <section id="articles" class="bg-background py-16">
             <div class="bg-color-secondary w-40 text-center text-base font-semibold rounded-full mx-auto">
                 <i class="uil uil-arrow-right"></i>
                 Rinterio News
@@ -550,7 +625,7 @@
 
         </section>
         <!-- *Project Discussion Section -->
-        <section id="discussion" class=" py-32">
+        <section id="discussion" class=" py-16">
             <div class="bg-color-secondary w-40 text-center text-base font-semibold rounded-full mx-auto">
                 <i class="uil uil-arrow-right"></i>
                 Let's Contact
@@ -564,7 +639,7 @@
             </div>
             <!-- *Input Form -->
             <div class="mx-4">
-                <form action="" class="md:mx-36 grid gap-4 grid-cols-1 md:grid-cols-2">
+                <form action="" class="lg:mx-36 grid gap-4 grid-cols-1 md:grid-cols-2">
                     <input class="p-3 rounded-3xl" placeholder="First Name *" required type="text" name="" id="">
                     <input class="p-3 rounded-3xl" type="text" placeholder="Last Name *" required name="" id="">
                     <input class="p-3 rounded-3xl" type="number" placeholder="Phone Number *" required name="" id="">
@@ -589,16 +664,17 @@
         <!-- *Footer Section -->
         <footer class="bg-black text-center text-white py-16 ">
             <!-- *Company Logo -->
-            <div class="flex gap-2 justify-center items-center py-5">
+            <div class="flex gap-2 justify-center items-center py-5 mx-4">
                 <span class="text-2xl h-8 w-8 text-black bg-color-primary rounded-full">
                     <i class="uil uil-arrow-up-right"></i>
                 </span>
                 <h1 class="font-bold text-3xl">Rinterio</h1>
             </div>
-            <p class="text-neutral-500">The barn house captivates with its blend of rustic charm and modern sophistication,
+            <p class="text-neutral-500 mx-4">The barn house captivates with its blend of rustic charm and modern
+                sophistication,
                 featuring weathered wood, sleek metal accents.</p>
-                <!-- *Footer Menu -->
-            <div class="flex flex-col gap-6 md:flex-row justify-around p-10">
+            <!-- *Footer Menu -->
+            <div class="flex flex-col gap-6 md:flex-row justify-around p-10 mx-4 font-semibold">
                 <a href="#">Home</a>
                 <a href="">Services</a>
                 <a href="">Portfolio</a>
